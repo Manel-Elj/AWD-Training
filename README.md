@@ -54,11 +54,10 @@ L’énoncé détaillé du Workshop 1 est disponible au format PDF :
 
 👉 [Télécharger l’énoncé du Workshop 1]((https://github.com/badi3a/AWD-Training/blob/W01-Developper_MicroService/Atelier-dev%20MS.pdf)
 
-## 📝 Travail à faire (Homework)
-
-👉 Implémenter un **deuxième microservice** dans un **nouveau projet Spring Boot** sous le dossier backend/microservices.
 ---
 
+## 📝 Travail à faire (Homework)
+👉 Implémenter un **deuxième microservice** dans un **nouveau projet Spring Boot** sous le dossier backend/microservices.
 ## ⚙️ Fonctionnalités attendues
 
 Le microservice doit permettre de :
@@ -89,7 +88,7 @@ Commencez par les fonctionnalités de base (CRUD), testez chaque étape, puis am
 
 🚀 Bon courage et bon code !
 
-```
+----
 ## 🏫 Cadre pédagogique
 
 ### Enseignante : [Badia Bouhdid](https://www.linkedin.com/in/badiabouhdid)
