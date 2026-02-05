@@ -90,7 +90,6 @@ Commencez par les fonctionnalités de base (CRUD), testez chaque étape, puis am
 
 ----
 ## 🏫 Cadre pédagogique
-
 ### Enseignante : [Badia Bouhdid](https://www.linkedin.com/in/badiabouhdid)
 Ce cours a été développé dans le cadre du **module Applications web Distribuées**,  
 en collaboration avec d’autres enseignants, à l’**[École d’Ingénieurs ESPRIT](https://www.esprit.tn)**.
