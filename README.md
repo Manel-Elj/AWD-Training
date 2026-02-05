@@ -1,37 +1,100 @@
-# Job Aboard - Microservices Training Project
+# Workshop 1 – Développement du premier microservice (Gestion des candidats)
 
-## 📌 About the Project
-**Job Aboard** is an **academic project** designed to help students **master microservices architecture** through a **30-hour hands-on training program**. The project focuses on building a **job listing management system** using a microservices approach.
-## 📌Project Architecture
-![](https://github.com/badi3a/JobBoard_Microservice/blob/main/documentation/diag/microservices-global-architecture.drawio%20(2).png)
+🎓 **Formation : Microservices**  
+📅 **Année universitaire : 2025–2026**  
+🧑‍💻 **Workshop 1**
 
-## 🎯 Main Goal
-The primary objective of this project is to provide students with:  
-✅ A **practical understanding** of microservices concepts.  
-✅ Experience in **service decomposition, inter-service communication, and scalability**.  
-✅ Hands-on training with **modern tools and frameworks** used in microservices development.
+---
 
-## 🛠️ Technologies & Concepts
-Throughout the training, students will work with:
-- **Spring Boot / Node.js** (for microservices implementation)
-- **API Gateway & Service Discovery**
-- **Message Brokers (Kafka, RabbitMQ, etc.)**
-- **Containerization (Docker, Kubernetes)**
-- **Database Management (SQL/NoSQL)**
-- **Security with Keycloak (Authentication & Authorization)**
-- **Frontend with Angular Framework**
+## 🎯 Objectif du workshop
 
-## 📅 Training Duration
-**30 hours** of guided learning and project development.
+L’objectif de ce workshop est de **développer un premier microservice Spring Boot** selon l’architecture microservices.
 
-## 🚀 Learning Outcome
-By the end of this training, students will be able to **design, develop, and deploy scalable and secure microservices applications**, preparing them for real-world software architecture challenges.
+À la fin de ce workshop, l’étudiant sera capable de :
+- Créer un projet **Spring Boot**
+- Développer un **microservice de gestion des candidats**
+- Exposer des **API REST**
+- Utiliser **Spring Data JPA**
+- Manipuler une base de données **H2**
+- Lancer **plusieurs instances** d’un même microservice sur des ports différents
 
----  
----  
-## 🎓 Acknowledgment
-This project is part of the academic training provided by **ESPRIT School of Engineering**, aiming to equip students with industry-relevant skills in modern software development.
-## 👨‍🏫 Contact
-Connect with me on LinkedIn: [My LinkedIn Profile](https://www.linkedin.com/in/badiabouhdid/)
+---
+
+## 🧩 Microservice développé
+
+### 🏷️ Nom
+**Microservice Gestion des Candidats**
+
+### 📌 Fonctionnalités
+Le microservice permet de :
+- Afficher tous les candidats
+- Afficher un candidat par **id**
+- Rechercher un candidat par **nom**
+- Ajouter un candidat
+- Modifier un candidat
+- Supprimer un candidat
+
+---
+
+## 🛠️ Technologies utilisées
+
+- Java 17
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Spring Data REST
+- H2 Database
+- Maven
+- IntelliJ IDEA
+
+---
+## 📄 Énoncé du workshop
+
+L’énoncé détaillé du Workshop 1 est disponible au format PDF :
+
+👉 [Télécharger l’énoncé du Workshop 1]((https://github.com/badi3a/AWD-Training/blob/W01-Developper_MicroService/Atelier-dev%20MS.pdf)
+
+## 📝 Travail à faire (Homework)
+
+👉 Implémenter un **deuxième microservice** dans un **nouveau projet Spring Boot** sous le dossier backend/microservices.
+---
+
+## ⚙️ Fonctionnalités attendues
+
+Le microservice doit permettre de :
+
+- Afficher **tous les jobs**
+- Afficher **un job par id**
+- Afficher **un job par nom**
+- Modifier l’état d’un job :
+  - `true` → poste **disponible**
+  - `false` → poste **occupé**
+
+---
+
+## ✅ Rendu attendu
+
+- Projet **Spring Boot fonctionnel**
+- Code bien structuré selon l’architecture :
+  - `controller`
+  - `service`
+  - `repository`
+- API REST **testées** (Postman ou navigateur)
+- Projet **poussé sur GitHub**
+
+---
+
+💡 **Conseil** :  
+Commencez par les fonctionnalités de base (CRUD), testez chaque étape, puis améliorez progressivement votre microservice.
+
+🚀 Bon courage et bon code !
+
+```
+## 🏫 Cadre pédagogique
+
+### Enseignante : [Badia Bouhdid](https://www.linkedin.com/in/badiabouhdid)
+Ce cours a été développé dans le cadre du **module Applications web Distribuées**,  
+en collaboration avec d’autres enseignants, à l’**[École d’Ingénieurs ESPRIT](https://www.esprit.tn)**.
+
 
 
