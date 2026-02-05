@@ -73,8 +73,8 @@ Le microservice doit permettre de :
 
 ## ✅ Rendu attendu
 
-- Projet **Spring Boot fonctionnel**
-- Code bien structuré selon l’architecture :
+- le dossier microservices avec deux Projets (deux microservices Job & Candidat) **Spring Boot fonctionnels**
+- Chaque projet avec un Code bien structuré selon l’architecture :
   - `controller`
   - `service`
   - `repository`
