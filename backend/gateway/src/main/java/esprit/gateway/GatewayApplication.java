@@ -18,6 +18,7 @@ public class GatewayApplication {
     public RouteLocator gatewayRoutes(RouteLocatorBuilder builder){
 
         return builder.routes() .route("candidat",r->r.path("/mic1/**")
-                       .uri("http://localhost:8081") ).build();
+                       .uri("lb://CANDIDAT") )
+                .build();
     }
 }
